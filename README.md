@@ -1,4 +1,5 @@
 # MIMETIC^2
+<img src="main_figure1.png" alt="Figure" style="width:70%;">
 
 ## HUMAN FACE IMITATION
 
