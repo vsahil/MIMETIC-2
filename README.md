@@ -1,5 +1,7 @@
-# MIMETIC^2
-<img src="main_figure1.png" alt="Figure" style="width:70%;">
+<div style="text-align: center;">
+  <h1 style="font-size: 3em;">MIMETIC<sup>2</sup></h1>
+  <img src="main_figure1.png" alt="Figure" style="width:100%;">
+</div>
 
 ## HUMAN FACE IMITATION
 
