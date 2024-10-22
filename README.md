@@ -224,3 +224,33 @@ python facial_detection.py --plot_similarity_training_and_generated_images --sel
 ```
 This will create the plot in the `similarity_plots_SD1.1` named `SD1.1_separate_plot_average_cosine_similarity_using_style_clip_wikiart_artists_top_10_similar_to_average_generated_images_training_images_artists_group1.png`.
 
+
+## Citation
+
+If you use this work, please cite it as:
+
+<div style="border:1px solid black; padding: 10px; position: relative;">
+    <pre id="bibtexCode">
+@misc{verma-diffusion-model-imitation-threshold,
+      title={How Many Van Goghs Does It Take to Van Gogh? Finding the Imitation Threshold}, 
+      author={Sahil Verma and Royi Rassin and Arnav Das and Gantavya Bhatt and Preethi Seshadri and Chirag Shah and Jeff Bilmes and Hannaneh Hajishirzi and Yanai Elazar},
+      year={2024},
+      eprint={2410.15002},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2410.15002}
+}
+    </pre>
+    <button onclick="copyToClipboard()" style="position: absolute; top: 10px; right: 10px;">Copy</button>
+</div>
+
+<script>
+function copyToClipboard() {
+  const code = document.getElementById('bibtexCode').innerText;
+  navigator.clipboard.writeText(code).then(function() {
+    alert('BibTeX copied to clipboard!');
+  }, function(err) {
+    alert('Failed to copy text: ', err);
+  });
+}
+</script>
+
