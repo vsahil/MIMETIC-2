@@ -239,18 +239,4 @@ If you use this work, please cite it as:
       archivePrefix={arXiv},
       url={https://arxiv.org/abs/2410.15002}
 }
-    </pre>
-    <button onclick="copyToClipboard()" style="position: absolute; top: 10px; right: 10px;">Copy</button>
-</div>
-
-<script>
-function copyToClipboard() {
-  const code = document.getElementById('bibtexCode').innerText;
-  navigator.clipboard.writeText(code).then(function() {
-    alert('BibTeX copied to clipboard!');
-  }, function(err) {
-    alert('Failed to copy text: ', err);
-  });
-}
-</script>
 
