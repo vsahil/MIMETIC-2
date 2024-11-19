@@ -199,7 +199,7 @@ python compute_embeddings_and_style_similarity.py --dataset wikiart --gpu 0 --mo
 ```
 This command will add a column: `count_this_artist_artworks_in_laion_images` in the artists csv file. This column counts the number of art works of this artists in the pretraining corpus. This step internally executes two steps: a. filters out the non-art images of an artist, and b. retains the art images whose similarity to the gold standard images is higher than the threshold established in the paper
 
-### Generating Face Embeddings of Generated Images
+### Generating Embeddings for Art Generated Images
 
 The first step is to download the style embedding model from: [Google Drive of CSD](https://drive.google.com/file/d/1FX0xs8p-C7Ob-h5Y4cUhTeOepHzXv_46/view)
 
